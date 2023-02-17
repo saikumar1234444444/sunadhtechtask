@@ -1,0 +1,51 @@
+.school-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.school-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px;
+  margin: 5px;
+  padding: 10px;
+}
+.school-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.school-image {
+  height: 120px;
+  width: 150px;
+}
+.school-para {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .school-heading {
+    font-size: 14px;
+  }
+  .school-image {
+    height: 70px;
+    width: 100px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .school-heading {
+    font-size: 17px;
+  }
+  .school-image {
+    height: 90px;
+    width: 120px;
+  }
+}
+@media screen and (min-width: 1280px) {
+}

@@ -1,0 +1,731 @@
+body {
+  margin: 0px;
+}
+
+.intro-heading1 {
+  font-size: 60px;
+  color: #2f4f4f;
+  font-family: 'Roboto';
+}
+.intro-heading2 {
+  font-size: 60px;
+  color: red;
+  font-family: 'Roboto';
+  margin-top: -40px;
+}
+.search-button {
+  background-color: red;
+
+  border: none;
+
+  padding: 5px;
+  font-style: normal;
+  color: white;
+  height: 40px;
+  width: 110px;
+  margin-left: 1px;
+  font-size: 20px;
+}
+.search-input {
+  height: 40px;
+  width: 260px;
+  font-size: 20px;
+}
+.pic-container {
+  background-color: lightgrey;
+  width: 100%;
+  margin-top: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 70px;
+}
+.profile-pic {
+  height: 400px;
+}
+.university-button {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border-style: none;
+  margin-right: 50px;
+}
+.arrow {
+  height: 30px;
+  width: 30px;
+}
+.university-image {
+  height: 120px;
+  width: 120px;
+  margin-right: 50px;
+}
+.university-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+}
+.title {
+  font-size: 60px;
+  color: #2f4f4f;
+  font-family: 'Roboto';
+  margin-left: 70px;
+}
+.span {
+  color: red;
+  font-size: 60px;
+}
+.ul-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+.course-heading {
+  margin-left: 70px;
+}
+.ul-container1 {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.top-course-container {
+  background-color: lightgrey;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top-course-heading {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 60px;
+}
+.ul-container2 {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+.detailed-container {
+  background-color: #2f4f4f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.student-image {
+  width: 300px;
+  height: 500px;
+  margin-right: 200px;
+}
+.arrow-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  width: 500px;
+}
+.inside-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-button {
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  border-style: none;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.first-heading {
+  font-size: 20px;
+  color: white;
+}
+.second-heading {
+  font-size: 30px;
+  color: white;
+}
+.available-courses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.ul-course-container {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+}
+.shift {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ul-heading {
+  font-family: 'Roboto';
+}
+.ul-heading3 {
+  font-family: 'Roboto';
+}
+.subject-heading {
+  margin-left: 230px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-top: 50px;
+}
+.footer {
+  background-color: lightgrey;
+  width: 100%;
+}
+.logo-image {
+  height: 120px;
+  width: 300px;
+}
+.convert {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.ul-heading1 {
+  font-family: 'Roboto';
+  margin-left: 30px;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+.company-logo {
+  height: 60px;
+  width: 60px;
+  margin-top: 30px;
+  margin-left: 220px;
+}
+.shift1 {
+  margin-right: 100px;
+}
+.ul-course-container1 {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.search {
+  list-style-type: none;
+  background-color: white;
+  width: 260px;
+}
+.ul-heading2 {
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+@media screen and (max-width: 479px) {
+  .intro-heading1 {
+    font-size: 20px;
+  }
+  .intro-heading2 {
+    font-size: 20px;
+    margin-top: -5px;
+  }
+  .profile-pic {
+    display: none;
+  }
+  .search-input {
+    height: 26px;
+    width: 150px;
+    font-size: 10px;
+  }
+  .search-button {
+    height: 26px;
+    width: 70px;
+
+    font-size: 10px;
+  }
+  .pic-container {
+    padding-bottom: 2px;
+    padding-left: -50px;
+  }
+
+  .span {
+    font-size: 30px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .ul-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .university-container {
+    display: none;
+  }
+  .top-course-heading {
+    font-size: 25px;
+  }
+  .student-image {
+    display: none;
+  }
+  .first-heading {
+    font-size: 15px;
+  }
+  .second-heading {
+    font-size: 20px;
+  }
+  .content-container {
+    width: 200px;
+  }
+  .subject-heading {
+    margin-left: 20px;
+    text-align: center;
+  }
+  .available-courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .ul-heading {
+    font-size: 18px;
+  }
+  .ul-course-container {
+    font-size: 14px;
+    margin-top: -10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100px;
+  }
+  .convert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .company-logo {
+    display: none;
+  }
+  .ul-heading1 {
+    font-size: 15px;
+  }
+  .ul-course-container1 {
+    font-size: 10px;
+    margin-top: -2px;
+    margin-left: -3px;
+  }
+  .shift1 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .ul-heading3 {
+    font-size: 14px;
+  }
+  .para {
+    font-size: 12px;
+  }
+  .ul-heading2 {
+    font-size: 15px;
+    margin-left: -40px;
+  }
+  .logo-image {
+    height: 50px;
+    width: 150px;
+    margin-left: -40px;
+  }
+  .course-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: -50px;
+  }
+  .top-course-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: -50px;
+  }
+  .inside-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .intro-heading1 {
+    font-size: 25px;
+  }
+  .intro-heading2 {
+    font-size: 25px;
+    margin-top: -5px;
+  }
+  .profile-pic {
+    display: none;
+  }
+  .search-input {
+    height: 28px;
+    width: 180px;
+    font-size: 12px;
+  }
+  .search-button {
+    height: 28px;
+    width: 80px;
+
+    font-size: 12px;
+  }
+  .university-image {
+    height: 80px;
+    width: 80px;
+    margin-right: 30px;
+  }
+  .pic-container {
+    padding-bottom: 5px;
+  }
+  .university-button {
+    height: 20px;
+    width: 20px;
+  }
+  .arrow {
+    height: 25px;
+    width: 25px;
+  }
+  .span {
+    font-size: 40px;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .ul-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow: auto;
+  }
+  .top-course-heading {
+    font-size: 35px;
+  }
+  .student-image {
+    display: none;
+  }
+  .first-heading {
+    font-size: 15px;
+  }
+  .second-heading {
+    font-size: 20px;
+  }
+  .content-container {
+    width: 200px;
+  }
+  .subject-heading {
+    margin-left: 20px;
+    text-align: center;
+  }
+  .available-courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .ul-heading {
+    font-size: 18px;
+  }
+  .ul-course-container {
+    font-size: 14px;
+    margin-top: -10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100px;
+  }
+  .convert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .company-logo {
+    display: none;
+  }
+  .ul-heading1 {
+    font-size: 20px;
+  }
+  .ul-course-container1 {
+    font-size: 14px;
+    margin-top: -5px;
+    margin-left: -6px;
+  }
+  .shift1 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .ul-heading3 {
+    font-size: 18px;
+  }
+  .para {
+    font-size: 15px;
+  }
+  .ul-heading2 {
+    font-size: 20px;
+    margin-left: -40px;
+  }
+  .logo-image {
+    height: 70px;
+    width: 200px;
+    margin-left: -40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .company-logo {
+    margin-left: 20px;
+    display: inline;
+  }
+  .shift1 {
+    margin-right: 80px;
+    margin-left: 1px;
+  }
+  .ul-course-container1 {
+    margin-left: -10px;
+  }
+  .logo-image {
+    height: 70px;
+    width: 180px;
+  }
+  .subject-heading {
+    margin-left: 25px;
+    text-align: start;
+  }
+
+  .student-image {
+    margin-right: 0px;
+    margin-left: 35px;
+    width: 220px;
+  }
+  .first-heading {
+    font-size: 14px;
+  }
+  .second-heading {
+    font-size: 19px;
+  }
+  .ul-container1 {
+    overflow: auto;
+  }
+  .ul-heading {
+    font-size: 20px;
+  }
+  .ul-course-container {
+    font-size: 17px;
+
+    margin-top: -10px;
+    width: 150px;
+  }
+
+  .profile-pic {
+    height: 300px;
+  }
+  .arrow-button {
+    margin-left: 0px;
+  }
+  .content-container {
+    width: 400px;
+  }
+  .search-input {
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+  }
+  .search-button {
+    height: 30px;
+    width: 90px;
+
+    font-size: 15px;
+  }
+  .intro-heading1 {
+    font-size: 35px;
+  }
+  .intro-heading2 {
+    font-size: 35px;
+    margin-top: 0.5px;
+  }
+  .profile-pic {
+    display: block;
+  }
+  .university-button {
+    height: 40px;
+    width: 40px;
+  }
+
+  .university-image {
+    height: 120px;
+    width: 120px;
+    margin-right: 50px;
+  }
+  .arrow {
+    height: 30px;
+    width: 30px;
+  }
+  .span {
+    font-size: 60px;
+  }
+  .title {
+    font-size: 60px;
+    color: #2f4f4f;
+    font-family: 'Roboto';
+    margin-left: 70px;
+  }
+  .pic-container {
+    padding-bottom: 0px;
+  }
+  .top-course-heading {
+    font-size: 45px;
+  }
+  .student-image {
+    display: block;
+  }
+  .available-courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .convert {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .ul-heading1 {
+    font-size: 25px;
+  }
+  .ul-course-container1 {
+    font-size: 17px;
+  }
+  .ul-heading3 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .shift1 {
+    margin-right: 140px;
+    margin-left: 40px;
+  }
+  .logo-image {
+    height: 80px;
+    width: 200px;
+    margin-right: 120px;
+    margin-left: -30px;
+  }
+  .ul-heading2 {
+    font-family: 'Roboto';
+    margin-right: 120px;
+    margin-left: -30px;
+  }
+  .company-logo {
+    margin-left: 50px;
+  }
+  .subject-heading {
+    margin-left: 70px;
+  }
+  .shift {
+    margin-right: 60px;
+    margin-left: 40px;
+  }
+
+  .ul-course-container {
+    padding-left: 50px;
+  }
+  .student-image {
+    margin-right: 50px;
+  }
+  .arrow-button {
+    margin-left: 10px;
+  }
+  .ul-heading1 {
+    margin-left: 20px;
+  }
+  .ul-course-container1 {
+    margin-left: -20px;
+  }
+
+  .search-input {
+    margin-bottom: 10px;
+  }
+  .intro-heading1 {
+    font-size: 45px;
+  }
+  .intro-heading2 {
+    font-size: 45px;
+  }
+  .profile-pic {
+    display: block;
+  }
+  .pic-container {
+    padding-bottom: 0px;
+  }
+  .top-course-heading {
+    font-size: 45px;
+  }
+  .student-image {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .logo-image {
+    height: 80px;
+    width: 200px;
+    margin-right: 120px;
+    margin-left: -30px;
+  }
+  .ul-heading2 {
+    font-family: 'Roboto';
+    margin-right: 120px;
+    margin-left: -30px;
+  }
+
+  .intro-heading1 {
+    font-size: 60px;
+  }
+  .intro-heading2 {
+    font-size: 60px;
+    margin-top: -20px;
+  }
+  .profile-pic {
+    display: block;
+  }
+  .top-course-heading {
+    font-size: 50px;
+  }
+  .student-image {
+    display: block;
+  }
+  .ul-heading {
+    font-size: 25px;
+  }
+}
